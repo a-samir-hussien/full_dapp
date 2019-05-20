@@ -18,7 +18,7 @@
  *
  */
 let HDWalletProvider = require('truffle-hdwallet-provider');
-let mnemonic = "seminar melt phrase clerk stage usage jazz series payment bitter large mercy"; // Paste in your mnemonics here for testnet
+let mnemonic = "????????????????????????????????????????????"; // Paste in your mnemonics here for testnet
 //let mnemonic = process.env.mnemonic; // Use ENV variable for mainnet
 
 // const HDWalletProvider = require('truffle-hdwallet-provider');
@@ -52,7 +52,7 @@ module.exports = {
     },
     rinkby: {
       provider: function() {
-        return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/d26c3db0b4324ec39b9befbdcd827c6b");
+        return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/????????????????????");
       },
       network_id: '4',
     },
